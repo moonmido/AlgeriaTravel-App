@@ -166,8 +166,6 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 ```
 
-> ⚠️ Never commit your Firebase API keys to version control. Use environment variables or `.env` files.
-
 ---
 
 ## 📦 Build & Deployment
